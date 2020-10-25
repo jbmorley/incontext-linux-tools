@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+source ~/.zshrc
+incontext-docker add draft $( zenity --entry --text "Title" --title "Add Draft" )
